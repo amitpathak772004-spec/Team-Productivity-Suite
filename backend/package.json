@@ -1,0 +1,35 @@
+{
+  "name": "team-productivity-suite-backend",
+  "version": "1.0.0",
+  "description": "Backend for Team Productivity Suite - MERN SaaS platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint .",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "keywords": [
+    "team-productivity",
+    "mern",
+    "backend",
+    "express",
+    "mongodb"
+  ],
+  "author": "Team Productivity Suite",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.5.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "nodemon": "^3.0.1"
+  }
+}
